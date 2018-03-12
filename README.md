@@ -13,7 +13,8 @@ Example:
 
 The result should be as follows:
 
-`S
+```
+S
 |--VP
 |  |--NP
 |  |  |--Nom
@@ -35,5 +36,6 @@ The result should be as follows:
 |     |--prefer
 |--NP
    |--Pro
-      |--i`
+      |--i
+```
 
