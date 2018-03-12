@@ -1,6 +1,6 @@
 # Implementation of the CYK algorithm
 
-A basic implementation of the CYK algorithm. This code can be used to understand the algorithm or as a start point to develop complex parser.
+A basic implementation a parser based on the CYK algorithm. This code can be used to understand how to use the CYK  algorithm to obtain a parse tree and eventually to develop a more complex parser. The result of the analyzis is a ParseTree object.
 
 # Usage
 Run the following command in a terminal with python 3 installed:
