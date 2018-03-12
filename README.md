@@ -5,8 +5,35 @@ A basic implementation a parser based on the CYK algorithm. This code can be use
 # Usage
 Run the following command in a terminal with python 3 installed:
 
-`python3 test.py <grammar_file> <sentence>`
+`python3 src/test.py <grammar_file> <sentence>`
 
 Example: 
  
-`python3 test.py grammar.cfg "I prefer the morning flight through Denver"`
+`python3 src/test.py data/grammar.cfg "I prefer the morning flight through Denver"`
+
+The result should be as follows:
+
+`S
+|--VP
+|  |--NP
+|  |  |--Nom
+|  |  |  |--PP
+|  |  |  |  |--NP
+|  |  |  |  |  |--Pro
+|  |  |  |  |     |--denver
+|  |  |  |  |--P
+|  |  |  |     |--through
+|  |  |  |--Nom
+|  |  |     |--Noun
+|  |  |     |  |--flight
+|  |  |     |--Nom
+|  |  |        |--Noun
+|  |  |           |--morning
+|  |  |--Det
+|  |     |--the
+|  |--Verb
+|     |--prefer
+|--NP
+   |--Pro
+      |--i`
+
