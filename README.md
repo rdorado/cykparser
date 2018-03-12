@@ -1,4 +1,4 @@
-# Implementation of the CYK algorithm
+# A CYK based parser
 
 A basic implementation a parser based on the CYK algorithm. This code can be used to understand how to use the CYK  algorithm to obtain a parse tree and eventually to develop a more complex parser. The result of the analyzis is a ParseTree object.
 
